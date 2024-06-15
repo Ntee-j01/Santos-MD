@@ -24,7 +24,7 @@ async function uploadImageToImgur(imagePath, clientId) {
     const imageUrl = response.data.data.link;
     return imageUrl;
   } catch (error) {
-    console.error('Erreur lors de l\'envoi sur Imgur:', error);
+    console.error('Error loading\'error on Imgur:', error);
     throw new Error('Une erreur est survenue lors de l\'envoi sur Imgur.');
   }
 }
