@@ -1,5 +1,5 @@
 <h1 align="center">🇳 🇹 🇪 🇪 🇯 -🇲 🇩  🇧 🇴 🇹  </h1>
-<p align="center">  l introduce <b>Nteej-MD</b>, a powerful simple to use interactive bot with many features.It is a multidevice bot created and designed by Nteej to make your whatsapp more exciting and entertaining.Please support us and we will bring more amazing features </p>
+<p align="center"> introduce Nteej-MD, a powerful simple to use interactive bot with many features.It is a multidevice bot created and designed by Nteej to make your whatsapp more exciting and entertaining.Please support us and we will bring more amazing features </p>
 
 ***
  <a aria-label="Nteej MD is free to use" href="https://github.com/Ntee-j01/Nteej-MD-Bot" target="_blank">
