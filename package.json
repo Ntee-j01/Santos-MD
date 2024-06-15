@@ -1,12 +1,12 @@
 {
-  "name": "beltah-md",
+  "name": "nteej-md",
   "version": "1.0.0",
-  "description": "",
-  "main": "beltah.js",
+  "description": "A simple WhatsApp bot with advanced features",
+  "main": "nteej.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "s": "node beltah.js",
-    "beltah": "pm2 start beltah.js --attach --max-memory-restart 490M",
+    "s": "node nteej.js",
+    "nteej": "pm2 start nteej.js --attach --max-memory-restart 490M",
     "c": "tsc"
   },
   "keywords": [
@@ -15,9 +15,9 @@
     "Beltah",
     "whatsapp",
     "whatsapp-bot",
-    "Faouz995"
+    "Nteej Md"
   ],
-  "author": "Beltah Tech Team",
+  "author": "Nteej Tech",
   "license": "ISC",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
