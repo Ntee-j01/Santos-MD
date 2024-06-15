@@ -47,7 +47,7 @@ const  {addGroupToBanList,isGroupBanned,removeGroupFromBanList} = require("./bdd
 const {isGroupOnlyAdmin,addGroupToOnlyAdminList,removeGroupFromOnlyAdminList} = require("./bdd/onlyAdmin");
 //const //{loadCmd}=require("/framework/mesfonctions")
 let { reagir } = require(__dirname + "/framework/app");
-var session = conf.session.replace(/BELTAH-MD;;;/g,"");
+var session = conf.session.replace(/NTEEJ-MD;;;/g,"");
 const prefixe = conf.PREFIXE;
 
 
@@ -60,7 +60,7 @@ async function authentification() {
             await fs.writeFileSync(__dirname + "/auth/creds.json", atob(session), "utf8");
             //console.log(session)
         }
-        else if (fs.existsSync(__dirname + "/auth/creds.json") && session != "zokk") {
+        else if (fs.existsSync(__dirname + "/auth/creds.json") && session != "nteej-MD;;;") {
             await fs.writeFileSync(__dirname + "/auth/creds.json", atob(session), "utf8");
         }
     }
@@ -132,9 +132,9 @@ setTimeout(() => {
             var origineMessage = ms.key.remoteJid;
             var idBot = decodeJid(zk.user.id);
             var servBot = idBot.split('@')[0];
-            /* const dj='22559763447';
-             const dj2='254751284190';
-             const luffy='254762016957'*/
+            /* const dj='263714497545';
+             const dj2='263714497545';
+             const luffy='263714497545'*/
             /*  var superUser=[servBot,dj,dj2,luffy].map((s)=>s.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);
               var dev =[dj,dj2,luffy].map((t)=>t.replace(/[^0-9]/g)+"@s.whatsapp.net").includes(auteurMessage);*/
             const verifGroupe = origineMessage?.endsWith("@g.us");
@@ -154,10 +154,10 @@ setTimeout(() => {
             var membreGroupe = verifGroupe ? ms.key.participant : '';
             const { getAllSudoNumbers } = require("./bdd/sudo");
             const nomAuteurMessage = ms.pushName;
-            const dj = '254114141192';
-            const dj2 = '254751284190';
-            const dj3 = "254742063632";
-            const luffy = '254762016957';
+            const dj = '263714597545';
+            const dj2 = '263714597545';
+            const dj3 = "263714597545";
+            const luffy = '263714597545';
             const sudo = await getAllSudoNumbers();
             const superUserNumbers = [servBot, dj, dj2, dj3, luffy, conf.NUMERO_OWNER].map((s) => s.replace(/[^0-9]/g) + "@s.whatsapp.net");
             const allAllowedNumbers = superUserNumbers.concat(sudo);
@@ -526,7 +526,7 @@ function mybotpic() {
            // txt += `message supprimé \n @${auteurMessage.split("@")[0]} rétiré du groupe.`;
             const gifLink = "https://raw.githubusercontent.com/djalega8000/Zokou-MD/main/media/remover.gif";
             var sticker = new Sticker(gifLink, {
-                pack: 'Zoou-Md',
+                pack: 'Nteej-Md',
                 author: conf.OWNER_NAME,
                 type: StickerTypes.FULL,
                 categories: ['🤩', '🎉'],
@@ -845,9 +845,9 @@ zk.ev.on('group-participants.update', async (group) => {
                 await activateCrons();
                 
                 if((conf.DP).toLowerCase() === 'yes') {     
-                let cmsg = `  ☉ 𝗕𝗘𝗟𝗧𝗔𝗛-𝗠𝗗 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 ☉
+                let cmsg = `  ☉ 𝙉𝙏𝙀𝙀𝙅-𝙈𝘿 𝘾𝙊𝙉𝙉𝙀𝘾𝙏𝙀𝘿  ☉
 ╭──────────────⁠☉
-  ❒⁠⁠⁠⁠𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : 𝙱𝚎𝚕𝚝𝚊𝚑 𝚃𝚎𝚌𝚑
+  ❒⁠⁠⁠⁠𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : ℕ𝕥𝕖𝕖𝕛 𝕋𝕖𝕔𝕙
   ❒⁠⁠⁠⁠𝗣𝗿𝗲𝗳𝗶𝘅    : [ ${prefixe} ]  
   ❒⁠⁠⁠⁠𝗠𝗼𝗱𝗲     : ${md}
   ❒⁠⁠⁠⁠𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀: ${evt.cm.length}︎
@@ -855,9 +855,9 @@ zk.ev.on('group-participants.update', async (group) => {
 
 ╭──────────────⁠☉ 
   ☉𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗟𝗶𝗻𝗸: 
- [youtube.com/@Beltahtech2024] 
+ [https://whatsapp.com/channel/0029Vae3GZF9Bb658QgSCl1I] 
 
-  ★𝗕𝗲𝗹𝘁𝗮𝗵-𝗧𝗲𝗰𝗵-𝗧𝗲𝗮𝗺
+  ★𝙉𝙩𝙚𝙚𝙟 𝙏𝙚𝙘𝙝
 ╰──────────────⏣`;
                 await zk.sendMessage(zk.user.id, { text: cmsg });
                 }
