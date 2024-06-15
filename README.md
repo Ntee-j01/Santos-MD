@@ -1,83 +1,73 @@
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-## BELTAH-MD V3.0.0 
-   ***MADE WITH 💎***
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<h1 align="center">🇳 🇹 🇪 🇪 🇯 -🇲 🇩  🇧 🇴 🇹  </h1>
+<p align="center">  l introduce <b>Nteej-MD</b>, a powerful simple to use interactive bot with many features.It is a multidevice bot created and designed by Nteej to make your whatsapp more exciting and entertaining.Please support us and we will bring more amazing features </p>
 
-<div align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Black+Ops+One&size=50&pause=1000&color=1BAFBAFF&center=true&width=910&height=100&lines=𝗕𝗘𝗟𝗧𝗔𝗛+𝗠𝗗;A+WHATSAPP+BOT;CREATED+BY+BELTAH+TECH" alt="Typing SVG" /></a>
-  </p>
-<div align="center">
+***
+ <a aria-label="Nteej MD is free to use" href="https://github.com/Ntee-j01/Nteej-MD-Bot" target="_blank">
 
-| [![Beltah KE](https://telegra.ph/file/dcce2ddee6cc7597c859a.jpg?lenght=50width=50)](https://github.com/Beltahmd)|
-|----|
-
-<p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=BELTAH-MD+V3.0.0+RESPONDS+FAST" alt="">
 </p>
+<p align="center"><img src="https://profile-counter.glitch.me/{mouricedevs}/count.svg" alt="Nteej :: Visitor's Count" /></p>
+
+---
+
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-BELTAH TECH-red.svg?style=for-the-badge&logo=github"></a>
-<p/>
+  <a href="https://github.com/Ntee-j01/Nteej-MD-Bot"><b>Nteej-MD </b></a> Supports Deploy On...
+</p>
+
 <p align="center">
-<a href="https://github.com/beltah-md?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/Beltahmd?label=Followers&style=social"></a>
-<a href="https://github.com/Beltahmd/beltah-md/stargazers/"><img title="STARS" src="https://img.shields.io/github/stars/Beltahmd/beltah-md?&style=social"></a>
-<a href="https://github.com/Beltahmd/beltah-md/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Beltahmd/beltah-md?style=social"></a>
-<a href="https://github.com/Beltahmd/beltah-md/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/Beltahmd/beltah-md?label=Watching&style=social"></a>
-  
-## SETUP FOR 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗
+  <a href="https://web.giftedtechnexus.co.ke/deploy/platforms/heroku.html"><img src="https://img.shields.io/badge/heroku-9d7acc?style=for-the-badge&logo=heroku&logoColor=430098"></a>
 
-**CLICK HERE 👇 TO FORK**
+<p align="center">Is there an error? please create an <a href="https://github.com/Ntee-j01/Nteej-MD-Bot/issues">issue</a></p>
 
-<a href="https://github.com/Beltahmd/beltah-md/fork"><img src="https://img.shields.io/badge/Fork%20Beltahmd%20Repo-blue" alt="FORK BELTAH-MD REPO" width="150"></a>
+---
 
-## GET YOUR SESSION ID: 
+ <h3>Nteej-MD Stats</h3>
 
-**CLICK HERE 👇 TO PAIR**
-
-<a href="https://pair-bel-tah-b427bf12d2e2.herokuapp.com/pair"><img src="https://img.shields.io/badge/Pair%20session%20code-green" alt="𝐏𝐚𝐢𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
-
-**CLICK HERE 👇 TO SCAN QR**
-
-<a href="https://pair-bel-tah-b427bf12d2e2.herokuapp.com/qr"><img src="https://img.shields.io/badge/QR%20session%20code-red" alt="𝐐𝐫 𝐬𝐞𝐬𝐬𝐢𝐨𝐧 𝐜𝐨𝐝𝐞" width="150"></a>
-
-**CLICK HERE 👇 TO WATCH TUTORIAL**
-
-<a href="https://www.youtube.com/@Beltahtech2024"><img src="https://img.shields.io/badge/WATCH%20FULL%20TUTORIAL-red" alt="FULL TUTORIAL HERE" width="150"></a>
+![Nteej-MD Stats](https://github-readme-stats.vercel.app/api/pin/?username=Ntee-j01&repo=NTEEJ-MD&show_owner=true&theme=dark)
 
 
-## 4. DEPLOY NOW ON HEROKU 
-<h1 align="center">
- 
- ***[![DEPLOY NOW ON HEROKU](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https://github.com/Beltahmd/beltah-md&template=https://github.com/Beltahmd/beltah-md.git)***
-
- ## CONTACT DEVELOPER
-
-⏣REACH BELTAH-MD DEVELOPER ON WHATSAPP BY CLICKING  [**HERE**](https://wa.me/254114141192)  AND ON TELEGRAM BY CLICKING  [**HERE**](https://t.me/beltah254) 
-
-## CONTRIBUTIONS
-
-Contributions to BELTAH-MD are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request. <br>
-
-  ## THANKS TO MY FELLOW DEV FOR;
-
-    [FRANCE KING] 
     
-Who added commands (uptime, ping, vv, ss, repo); <br>
+   
+## Nteej-MD Deployment Methods
+---
+1.  **Fork Repo First, [`CLICK HERE`](https://github.com/Ntee-j01/Nteej-MD-Bot/fork) (MANDATORY) and `Star ⭐ Repository` for us to continue bringing more exciting features.**<br />
+<br />
+2.  **Get `SESSION ID` by [`PAIRING CODE`](https://web.giftedtechnexus.co.ke/sessions/sessions/pair.html) or by [`SCANNING QR CODE`](https://web.giftedtechnexus.co.ke/sessions/sessions/qr.html) <br />
+  <br />
+- **Deploy on [`HEROKU`](https://web.giftedtechnexus.co.ke/deploy/platforms/heroku.html)**
 
-    [GIFTED TECH]
-    
-Who helped in commands addition 
-(ai, dalle, gpt4, gpt, starting up message for bot, updated index. Js) ;
 
-## License
+##
+---
 
-The WhatsApp Bot 𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 is released under the [MIT License](https://opensource.org/licenses/MIT).
 
-🌟 THANK YOU FOR CHOOSING BELTAH-MD 🌟
+- Star my ⭐repo if you like this bot.
+- If any problem, then [`Contact Me Here`](https://wa.me/+263714497545)
 
-## DEVELOPERS :
 
-- [**BELTAH TECH**](https://github.com/Beltahmd)
-- [**FRANCE KING**](https://github.com/franceking1)
-- [**GIFTED TECH**](https://github.com/mouricedevs)
+### support
+- [WA channel](https://whatsapp.com/channel/0029Vae3GZF9Bb658QgSCl1I)
+- [WA Group](https://chat.whatsapp.com/Er6RNNNVWV5LORN9Nr6hL7)
+- [WA contact](https://wa.me/+263714497545)
 
-★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 𝙱𝚎𝚕𝚝𝚊𝚑-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖. ©2024
+### l am
+- [Nteej-MD](https://GitHub.com/Ntee-j01)
+
+<h2 align = "center"> NOTICE </h2>
+<p> Make sure you use Nteej-MD for its purposes or else you will have troubles with Meta inc.Avoid spamming so that you may not have any issue or problems with Meta inc</p>
+
+### credits to
+regards
+- [Gift-MD](https://github.com/mouricedevs) for always supporting me
+- [TKM-Cod3Uchiha](https://Github.com/Cod3Uchiha) for giving me advice and being my tutor
+
+©2024 _   _ _             _       __  __ ____
+| \ | | |_ ___  ___ (_)     |  \/  |  _ \
+|  \| | __/ _ \/ _ \| |_____| |\/| | | | |
+| |\  | ||  __/  __/| |_____| |  | | |_| |
+|_| \_|\__\___|\___|/ |     |_|  |_|____/
+                  |__/
+                  
+        
+
+
+
