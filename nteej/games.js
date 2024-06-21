@@ -1,4 +1,4 @@
-const {zokou} = require("../framework/zokou");
+const {zokou} = require("../framework/nteej");
 const axios = require('axios');
 const traduire = require('../framework/traduction')
 
