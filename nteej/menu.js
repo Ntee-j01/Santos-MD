@@ -1,6 +1,6 @@
 const util = require('util');
 const fs = require('fs-extra');
-const { zokou } = require(__dirname + "/../framework/zokou");
+const { zokou } = require(__dirname + "/../framework/nteej");
 const { format } = require(__dirname + "/../framework/mesfonctions");
 const os = require("os");
 const moment = require("moment-timezone");
@@ -32,7 +32,7 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-╭────✧《《𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗》》✧───◆
+╭────✧《《𝙉𝙏𝙀𝙀𝙅-𝙈𝘿》》✧───◆
 ┴╭─────────────✣
 𓄂│▸ *Owner* : ${s.OWNER_NAME}
 𓄂│▸ *Date* : ${date}
@@ -43,11 +43,11 @@ const date = moment().format('DD/MM/YYYY');
 𓄂│▸ *Platform* : ${os.platform()}
 𓄂│▸ *Theme* : *Beltah*
 ┬╰──────────────✣
-╰─── ···▸💰LIKE A BOSS💰··──◆\n`;
+╰─── ···▸LIVE LIKE NTEEJ😊··──◆\n`;
     
 let menuMsg = `
 ╭─────────✣
-    *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗 V3.0.0*
+    *𝙉𝙏𝙀𝙀𝙅-𝙈𝘿 V3.0.0*
      *_Made with 💎_*
 ╰─────────✣
  *❄︎AVAILABLE COMMANDS❄︎*
@@ -66,9 +66,9 @@ let menuMsg = `
     menuMsg += `
 ◇            ◇
 *»»————————— ★ ——————————««*
-|⏣BELTAH-MD CREATED BY BELTAH TECH TEAM
+|⏣NTEEJ-MD CREATED BY NTEEJ TECH
 |⏣ *RELEASED ON : 02.06.2024*
-|⏣THANK YOU FOR CHOOSING *𝗕𝗘𝗟𝗧𝗔𝗛 𝗠𝗗*
+|⏣THANK YOU FOR CHOOSING *𝙉𝙏𝙀𝙀𝙅-𝙈𝘿*
 *»»—————————— ★ ——————————««*
 `;
 
@@ -76,7 +76,7 @@ let menuMsg = `
 
    if (lien.match(/\.(mp4|gif)$/i)) {
     try {
-        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" , gifPlayback : true }, { quoted: ms });
+        zk.sendMessage(dest, { video: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Nteejmd*, déveloper Nteej Tech" , gifPlayback : true }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
@@ -86,7 +86,7 @@ let menuMsg = `
 // Vérification pour .jpeg ou .png
 else if (lien.match(/\.(jpeg|png|jpg)$/i)) {
     try {
-        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Beltah Tech" }, { quoted: ms });
+        zk.sendMessage(dest, { image: { url: lien }, caption:infoMsg + menuMsg, footer: "Je suis *Beltahmd*, déveloper Nteej Tech" }, { quoted: ms });
     }
     catch (e) {
         console.log("🥵🥵 Menu erreur " + e);
