@@ -1,4 +1,4 @@
-const { zokou } = require('../framework/zokou');
+const { zokou } = require('../framework/nteej');
 const {addOrUpdateDataInAlive , getDataFromAlive} = require('../bdd/alive')
 const moment = require("moment-timezone");
 const s = require(__dirname + "/../set");
@@ -43,7 +43,7 @@ const date = moment().format('DD/MM/YYYY');
  ${message}
  
  
- *BELTAH_MD version 2.0*`
+ *NTEEJ_MD version 2.0*`
 
  if (lien.match(/\.(mp4|gif)$/i)) {
     try {
@@ -88,7 +88,7 @@ else {
     
 await addOrUpdateDataInAlive(texte , tlien)
 
-repondre(' Holla🥴, *BELTAH-MD BOT* is alive just like you gee. ')
+repondre(' WASSUP🥴, *NTEEJ-MD BOT* is alive just like you gee. ')
 
 }
     });
