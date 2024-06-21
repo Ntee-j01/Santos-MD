@@ -1,5 +1,5 @@
 
-const {zokou } = require("../framework/zokou");
+const {zokou } = require("../framework/nteej");
 const axios = require('axios');
 const cheerio = require('cheerio');
 let func = require('../framework/mesfonctions') ;
