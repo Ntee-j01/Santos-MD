@@ -1,4 +1,4 @@
-const { zokou } = require('../framework/zokou');
+const { zokou } = require('../framework/nteej');
 const { attribuerUnevaleur } = require('../bdd/welcome');
 
 async function events(nomCom) {
