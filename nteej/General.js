@@ -1,8 +1,8 @@
-const { zokou } = require("../framework/zokou");
+const { nteej } = require("../framework/nteej");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../bdd/sudo")
 const conf = require("../set");
 
-zokou({ nomCom: "mods", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
+nteej({ nomCom: "mods", categorie: "General", reaction: "💞" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -51,18 +51,18 @@ zokou({ nomCom: "mods", categorie: "General", reaction: "💞" }, async (dest, z
   }
 });
 
-zokou({ nomCom: "dev", categorie: "General", reaction: "⛑️" }, async (dest, zk, commandeOptions) => {
+nteej({ nomCom: "dev", categorie: "General", reaction: "⛑️" }, async (dest, zk, commandeOptions) => {
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "BELTAH TECH", numero: "254114141192" },
-      { nom: "BELTAH KE", numero: "254737681758" },
-      { nom: "GIFTED TECH", numero: "254762016957" }, 
-      { nom: "FRANCE KING", numero: "254742063632" }, 
+      { nom: "NTEEJ TECH", numero: "263714497545" },
+      { nom: "NTEEJ KE", numero: "263714497545" },
+      { nom: "DEV", numero: "263714497545" }, 
+      { nom: "NTEEJ KING", numero: "263714497545" }, 
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "👋WELCOME TO BELTAH-MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
+    let message = "👋WELCOME TO NTEEJ-MD HELP CENTER! ASK FOR HELP FROM ANY OF THE DEVELOPERS BELOW:\n\n";
     for (const dev of devs) {
       message += `----------------\n⏣ ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -93,11 +93,11 @@ else {
 }
 });
 
-zokou({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
+nteej({ nomCom: "support", categorie: "General" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
-  repondre("THANK YOU FOR CHOOSING BELTAH-MD, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029VaRHDBKKmCPKp9B2uH2F] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/CQvUnqaDK4fBjgMXvFEAsI] \n\n ☉YOUTUBE LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://www.youtube.com/@Beltahtech2024] \n\n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 © 𝙱𝚎𝚕𝚝𝚊𝚑-𝚃𝚎𝚌𝚑-𝚃𝚎𝚊𝚖") 
-  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING BELTAH-MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
+  repondre("THANK YOU FOR CHOOSING NTEEJ-MD, HERE ARE OUR SUPPORTIVE LINKS\n\n ☉ CHANNEL LINK IS HERE ☉ \n\n❒⁠⁠⁠⁠[https://whatsapp.com/channel/0029Vae3GZF9Bb658QgSCl1I] \n\n ☉ GROUP LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://chat.whatsapp.com/Er6RNNNVWV5LORN9Nr6hL7] \n\n ☉WA NUMBER LINK IS HERE ☉\n\n❒⁠⁠⁠⁠[https://wa.me/+263714497545] \n\n\n★𝙿𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 © ɴᴛᴇᴇᴊ-ᴛᴇᴄʜ") 
+  await zk.sendMessage(auteurMessage,{text : `THANK YOU FOR CHOOSING NTEEJ-MD,MAKE SURE YOU FOLLOW THESE LINKS. `},{quoted :ms})
 
 })
 
