@@ -1,4 +1,4 @@
-const {zokou} =require("../framework/zokou");
+const {zokou} =require("../framework/nteej");
 const axios =require("axios");
 
 
@@ -18,7 +18,7 @@ zokou({ nomCom: "lyrics",
 
     if (lyrics.error) return repondre("no lyrics found");
 
-    let msg = `---------Beltah-lyrics-finder--------
+    let msg = `--------Nteej-lyrics-finder--------
 
 * *Artist :* ${lyrics.artist}
 
