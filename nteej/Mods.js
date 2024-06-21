@@ -1,4 +1,4 @@
-const { zokou } = require('../framework/zokou');
+const { zokou } = require('../framework/nteej');
 const axios = require("axios")
 let { Sticker, createSticker, StickerTypes } = require('wa-sticker-formatter');
 const {isUserBanned , addUserToBanList , removeUserFromBanList} = require("../bdd/banUser");
