@@ -1,4 +1,4 @@
-const { zokou } = require("../framework/zokou");
+const { zokou } = require("../framework/nteej");
 const canvacord = require("canvacord");
 const {uploadImageToImgur} = require("../framework/imgur")
 
