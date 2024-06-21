@@ -1,4 +1,4 @@
-const { zokou } = require("../framework/zokou");
+const { zokou } = require("../framework/nteej");
 const yts = require('yt-search');
 const ytdl = require('ytdl-core');
 const fs = require('fs');
@@ -29,14 +29,14 @@ zokou({
           
        let infoMess = {
           image: {url : videos[0]. thumbnail},
-         caption : `\n*⏣BELTAH-MD SONG DOWNLOADER⏣*\n\n*song name :* _${videos[0].title}_
+         caption : `\n*⏣NTEEJ-MD SONG DOWNLOADER⏣*\n\n*song name :* _${videos[0].title}_
 
 *Time :* _${videos[0].timestamp}_
 
 *Url :* _${videos[0].url}_
 
 
-_*BELTAH-MD IS DOWNLOADING YOUR FILE📂*_\n\n`
+_*NTEEJ-MD IS DOWNLOADING YOUR FILE📂*_\n\n`
        }
 
       
