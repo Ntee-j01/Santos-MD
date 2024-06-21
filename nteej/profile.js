@@ -1,4 +1,4 @@
-const {zokou} = require("../framework/zokou");
+const {zokou} = require("../framework/nteej");
 const conf = require("../set")
 const {jidDecode}=require("@whiskeysockets/baileys")
 
