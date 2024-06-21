@@ -1,4 +1,4 @@
-const {zokou} = require('../framework/zokou');
+const {zokou} = require('../framework/nteej');
 const fs = require('fs');
 const getFBInfo = require("@xaviabot/fb-downloader");
 const { default: axios } = require('axios');
@@ -49,7 +49,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *zokou-MD*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.hd  }, caption: 'facebook video downloader powered by *Nteej-MD*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
@@ -113,7 +113,7 @@ async (dest, zk, commandeOptions) => {
         Lien: ${result.url}
       `;
        zk.sendMessage(dest,{image : { url : result.thumbnail}, caption : caption},{quoted : ms}) ;
-       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *zokou-MD*' }, { quoted: ms });
+       zk.sendMessage(dest, { video: { url: result.sd  }, caption: 'facebook video downloader powered by *Nteej-MD*' }, { quoted: ms });
       
     })
     .catch((error) => {console.log("Error:", error)
