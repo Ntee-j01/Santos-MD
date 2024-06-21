@@ -1,5 +1,5 @@
-const { zokou } = require("../framework/zokou");
-const fancy = require("../beltah/style");
+const { zokou } = require("../framework/nteej");
+const fancy = require("../nteej/style");
 
 zokou({ nomCom: "fancy", categorie: "Fun", reaction: "〽️" }, async (dest, zk, commandeOptions) => {
     const { arg, repondre, prefixe } = commandeOptions;
